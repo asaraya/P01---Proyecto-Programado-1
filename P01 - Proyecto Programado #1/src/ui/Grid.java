@@ -106,9 +106,9 @@ public class Grid extends JPanel{
 					for (int k = 0; k < tempMaker.size(); k++){   	
 				    	Color color;
 				        if (tempMaker.get(k) == 1){
-				        	color = Color.white;
-				        } else if (tempMaker.get(k) == 2){
 				        	color = Color.red;
+				        } else if (tempMaker.get(k) == 2){
+				        	color = Color.white;
 				        } else {
 				            color = Color.gray;
 				        }
